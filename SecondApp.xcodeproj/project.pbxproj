@@ -14,6 +14,7 @@
 		F2B80CB6261CAAB700DFAECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B80CB5261CAAB700DFAECB /* Assets.xcassets */; };
 		F2B80CB9261CAAB700DFAECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B80CB7261CAAB700DFAECB /* LaunchScreen.storyboard */; };
 		F2B80CC2261CC7AD00DFAECB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B80CC1261CC7AD00DFAECB /* WelcomeViewController.swift */; };
+		F2B80CC5261D068100DFAECB /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B80CC4261D068100DFAECB /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F2B80CB8261CAAB700DFAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B80CBA261CAAB700DFAECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B80CC1261CC7AD00DFAECB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F2B80CC4261D068100DFAECB /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F2B80CB7261CAAB700DFAECB /* LaunchScreen.storyboard */,
 				F2B80CBA261CAAB700DFAECB /* Info.plist */,
 				F2B80CC1261CC7AD00DFAECB /* WelcomeViewController.swift */,
+				F2B80CC4261D068100DFAECB /* CounterView.swift */,
 			);
 			path = SecondApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				F2B80CC2261CC7AD00DFAECB /* WelcomeViewController.swift in Sources */,
 				F2B80CAD261CAAB600DFAECB /* AppDelegate.swift in Sources */,
 				F2B80CAF261CAAB600DFAECB /* SceneDelegate.swift in Sources */,
+				F2B80CC5261D068100DFAECB /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
