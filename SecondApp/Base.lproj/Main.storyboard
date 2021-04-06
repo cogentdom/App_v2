@@ -53,6 +53,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="validation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MIy-W9-0lY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3h-YN-jAV">
                                 <rect key="frame" x="290" y="484" width="78" height="72"/>
@@ -63,15 +66,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="dau-PS-6GU" id="jSv-SI-z6K"/>
+                        <outlet property="username" destination="21m-v8-rqe" id="3mU-ht-WwO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-64" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="cLu-J0-NT5">
             <objects>
-                <viewController id="zn6-rD-8vV" sceneMemberID="viewController">
+                <viewController id="zn6-rD-8vV" customClass="WelcomeViewController" customModule="SecondApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rat-sg-O2w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,10 +171,11 @@
                         <viewLayoutGuide key="safeArea" id="UJZ-6Q-7rt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0Dp-9Q-YSC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDS-9O-oul" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1011.5942028985507" y="93.75"/>
+            <point key="canvasLocation" x="824.63768115942037" y="93.75"/>
         </scene>
     </scenes>
     <resources>
