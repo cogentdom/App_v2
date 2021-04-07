@@ -10,7 +10,6 @@ import UIKit
 class WelcomeViewController: UIViewController {
 
     
-    
     @IBOutlet weak var counter: UILabel!
     var i = 0
     override func viewDidLoad() {
